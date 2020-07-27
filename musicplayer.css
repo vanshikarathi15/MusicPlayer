@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+}
+
+
+i{
+	color: #fff;
+}
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: black;
+}
+ #ninjas-icon{
+    color: #fff;
+    position: relative;
+    height:auto;
+    width:32%;
+	
+	font-size: 24px;
+	float: left;
+	font-weight: bold;
+}
+#ninjas-icon img{
+    height:100px;
+    width:35%;
+    float:left;
+}
+#ninjas-icon h5{
+    width:40%;
+    position:absolute;
+    left:40%;
+    top:5%;
+}
+
+header nav{
+    float: right;
+    width:50%;
+    position:absolute;
+    left:65%;
+
+}
+header nav ul{
+	margin: 0 10px;
+	padding: 0;
+	display: flex;
+}
+header nav ul li{
+	list-style: none;
+    font-size: 1.5rem;
+}
+header nav ul li a{
+	top:0;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: white;
+    font-family: monospace;
+}
+#fav
+{
+    width:10%;
+    position:absolute;
+    left:55%;
+}
+#fav a {
+    color:white;
+    font-size:1.2rem;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+header nav li search-icon{
+	margin: 5px;
+	border-radius: 8px 8px 8px 8px;
+    width:15rem;
+	height: 1rem;
+	border:0;
+    background-color: lavender;
+    color:white;
+    font-size:1.2rem;
+    left:40%;
+}
+header nav ul li img{
+    width:10%;
+    height:55px;
+    left:60%;
+    position:absolute;
+    border-radius: 50%;
+}
+
+
+
