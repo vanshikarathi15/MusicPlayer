@@ -1,14 +1,13 @@
 *{
 	margin: 0;
 }
-body{
-    overflow: hidden;
-}
+
 
 i{
 	color: #fff;
 }
 header{
+    overflow: hidden;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -25,6 +24,12 @@ header{
 	float: left;
 	font-weight: bold;
 }
+header{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
 #ninjas-icon img{
     height:100px;
     width:35%;
@@ -37,19 +42,24 @@ header{
     top:5%;
 }
 
-header nav{
+.display{
     float: right;
     line-height: 5;
     right:0%;
     width:50%;
     position:absolute;
-    left:65%;
+    left:55%;
+    /* display:flex;
+    flex-wrap: wrap; */
+    /* justify-content: flex-start; */
+    
 
 }
 header nav ul{
 	margin: 0 10px;
 	padding: 0;
-	display: flex;
+    /* display: flex; */
+    
 }
 header nav ul li{
 	list-style: none;
@@ -67,7 +77,10 @@ header nav ul li a{
 {
     width:10%;
     position: absolute;
-    left:55%;
+    margin-left:5%;
+    margin-right:5%;
+    left:37%;
+
 }
 #ninjas,#fav{
     font-family: sans-serif;
@@ -80,33 +93,66 @@ header nav ul li a{
 #fav a {
     color:white;
     line-height: 5;
-    font-size:1.2rem;
+    font-size:1rem;
     text-decoration: none;
+
     padding: 0 20px;
 }
 
-header nav li search-icon{
+header nav li search{
 	margin: 5px;
-    width:15rem;
+    width:5%;
 	height: 0.8rem;
 	border:0;
     background-color: lavender;
     color:white;
     font-size:1rem;
-    left:40%;
+    left:30%;
 }
+header nav li span{
+    width:5%;
+
+
+}
+
 header nav ul li img{
     width:10%;
     height:55px;
-    left:60%;
+    left:45%;
+    top:20%;
     line-height: 4;
+    margin-left:10%;
+    margin-right:10%;
     position:absolute;
     border-radius: 50%;
+    
 }
-@media only screen and (max-width: 767px){
-    #display li{
-        width:20px;
-        height:20px;
+@media only screen and (max-width:550px){
+    #display {
+        width:70%;
+    }
+    #ninjas-icon
+    {
+        width:20%;
+    }
+    #fav
+    {
+        width:5%;
+        position:absolute;
+        left:25%;
+        margin:2%;
+    }
+    #fav a {
+        font-size:0.9rem;
+    }
+    header nav ul li img
+    {
+        left:70%;
+    }
+    header nav li search
+    {
+      left:35%;
+      width:60%;
     }
 
 }

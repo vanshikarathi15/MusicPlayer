@@ -1,0 +1,54 @@
+.outer{
+    position: relative;
+    /* top:0px; */
+    top:-110px;
+    height: 100vh;
+    width: 30%;
+    margin-right: 20px;
+    /* padding-top: 20px; */
+    border:1px solid white;
+    color:white;
+    float:right;
+    position:relative;
+    overflow:scroll;
+}
+.outer::-webkit-scrollbar {
+    display: none;
+    overflow-y:scroll;
+}
+
+#dropdown{
+    display: inline-flex;
+}
+.fa-caret-down{
+    float:right;
+}
+.songs {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom:10px;
+    height:45px;
+    width:97%;
+    list-style: none;
+}
+
+.queue-img{
+    height:100%;
+    width:15%;
+    left:0%;
+}
+
+.num{
+    padding:3px;
+    margin-top:-30px; 
+}
+.fa-heart{
+    float:right;
+    left:25px;
+    margin-top:15px;
+    margin-right: 17px;
+}
+.Name{
+    margin-bottom:10px;
+    margin-right: 5px;
+}
