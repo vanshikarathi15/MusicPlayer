@@ -1,0 +1,23 @@
+#releases{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    margin-top: 20%;
+}
+#releases h2{
+    color:white;
+    font-weight:20px;
+    margin-left:15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.09rem;
+}
+#releases div img{
+    width:100px;
+    margin-left:15px;
+    margin-bottom:10px;
+    height:100px;
+}
+.song{
+    top:30px;
+    color:white;
+}

@@ -2,7 +2,9 @@
 	margin: 0;
 }
 
-
+.fa-bell{
+    position: fixed;
+}
 i{
 	color: #fff;
 }
@@ -41,7 +43,11 @@ header{
     left:40%;
     top:5%;
 }
-
+.bell-icon li span:{
+    margin: 5px;
+    width:5%;
+	height: 0.8rem;
+}
 .display{
     float: right;
     line-height: 5;
@@ -49,17 +55,11 @@ header{
     width:50%;
     position:absolute;
     left:55%;
-    /* display:flex;
-    flex-wrap: wrap; */
-    /* justify-content: flex-start; */
-    
-
 }
 header nav ul{
 	margin: 0 10px;
 	padding: 0;
-    /* display: flex; */
-    
+
 }
 header nav ul li{
 	list-style: none;
@@ -92,11 +92,11 @@ header nav ul li a{
 }
 #fav a {
     color:white;
-    line-height: 5;
+    line-height: 6;
     font-size:1rem;
     text-decoration: none;
 
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 header nav li search{
