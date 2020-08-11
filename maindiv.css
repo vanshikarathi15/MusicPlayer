@@ -10,7 +10,7 @@ body::-webkit-scrollbar {
     box-sizing: border-box;
 }
 .main{
-    border:2px solid black;
+    
     display:flex;
     flex-wrap: wrap;
     position: relative;

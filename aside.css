@@ -1,24 +1,41 @@
 .outer{
     position: relative;
-    /* top:0px; */
-    top:-110px;
+    top:-130px;
     height: 100vh;
-    width: 30%;
+    width: 25%;
     margin-right: 20px;
-    /* padding-top: 20px; */
     border:1px solid white;
     color:white;
     float:right;
     position:relative;
     overflow:scroll;
 }
+.outer ul{
+    padding-left:0px;
+}
+.new{
+    padding-left: -10px;
+    display: flex;
+    justify-content: space-between;
+}
 .outer::-webkit-scrollbar {
     display: none;
     overflow-y:scroll;
 }
+.dropdown-content ul{
+    list-style: none;
+}
 
-#dropdown{
-    display: inline-flex;
+.dropdown:hover .dropdown-content{
+    display:block;
+    border: lightgreen solid 2px;
+    background-color: lavenderblush;
+    color:black;
+} 
+
+.dropdown-content{
+    display: none;
+
 }
 .fa-caret-down{
     float:right;
@@ -37,7 +54,6 @@
     width:15%;
     left:0%;
 }
-
 .num{
     padding:3px;
     margin-top:-30px; 
@@ -49,6 +65,32 @@
     margin-right: 17px;
 }
 .Name{
+    margin-top: -20px;
+    padding: 10px;
     margin-bottom:10px;
     margin-right: 5px;
+}
+/* Aside */
+    
+.queue-song {
+    display:flex;
+    margin-top:40px;
+}
+#number {
+    margin-top:5px;
+    margin-left:0px;
+    margin-right: 10px;
+}
+#queue-image img{
+    height:40px;
+    width:40px;
+}
+#queue-text{
+    margin-top: 5px;
+    margin-left: 40px;
+    font-family:sans-serif;
+    font-style: italic;
+}
+#fav{
+    margin-left: 150px;
 }

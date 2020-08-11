@@ -1,0 +1,30 @@
+.popular-artists h2{
+    color:white;
+    font-weight:20px;
+    margin-left:15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.09rem;
+}
+.popular-artists img{
+    margin-left:15px;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin-right: 15px;
+    margin-top:20px;
+}
+.singers{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.singers p{
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+}

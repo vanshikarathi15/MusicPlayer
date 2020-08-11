@@ -2,22 +2,42 @@
     display: grid;
     grid-template-columns: auto auto;
     position: relative;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 #releases h2{
     color:white;
+    font-style: normal;
     font-weight:20px;
     margin-left:15px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 0.09rem;
 }
 #releases div img{
     width:100px;
     margin-left:15px;
     margin-bottom:10px;
+    margin-right:8px;
     height:100px;
 }
 .song{
-    top:30px;
+    /* top:30px;
     color:white;
+    vertical-align:4.3rem;
+    top:20px; */
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+
+.music-container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.song-info{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
 }
