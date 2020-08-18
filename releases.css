@@ -35,6 +35,10 @@
     display: flex;
     flex-wrap: nowrap;
 }
+.music-container:hover{
+    opacity: 0.6;
+    transition: ease-in-out;
+}
 
 .song-info{
     margin-top: 30px;
